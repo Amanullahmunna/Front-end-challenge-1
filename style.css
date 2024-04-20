@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  color: white;
+}
+a {
+  text-decoration: none;
+  padding: 5px;
+  border: solid 2px white;
+  border-radius: 30px;
+  color: white;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 220px 0px;
+}
+.sedans {
+  background-color: rgb(199, 138, 24);
+  padding: 20px;
+}
+.suvs {
+  background-color: rgb(15, 99, 138);
+  padding: 20px;
+}
+.luxury {
+  background-color: rgb(11, 24, 99);
+  padding: 20px;
+}
+.car {
+  padding-bottom: 40px;
+}
+.sedans a {
+  color: rgb(199, 138, 24);
+  background-color: white;
+}
+.suvs a {
+  color: rgb(15, 99, 138);
+  background-color: white;
+}
+.luxury a {
+  color: rgb(11, 24, 99);
+  background-color: white;
+}
+@media (max-width: 615px) {
+  .hero {
+    display: inline;
+    padding: 20px 10px;
+  }
+}
